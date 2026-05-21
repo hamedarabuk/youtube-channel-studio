@@ -1,0 +1,32 @@
+# Channel data (per-clone, not part of template)
+channels/*
+!channels/.gitkeep
+
+# Generated media
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+*.mp3
+*.mov
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
