@@ -44,7 +44,7 @@ A Claude Code skill toolkit that helps YouTube creators optimise video metadata 
 
 3. Answer the interview. It takes about 15 to 20 minutes and covers identity, niche, audience, voice, visuals, competition, goals, and hard rules.
 
-4. Your foundation lands at `channels/<your-handle>/foundation.md`. The per-video skill reads it as strategic context every time it runs.
+4. Your foundation lands at `channels/<your-handle>/foundation.md`. The per-video skill reads it as strategic context every time it runs. Want to see what a finished one looks like first? There is a complete fictional example at `examples/foundation.example.md`.
 
 ## Per video
 

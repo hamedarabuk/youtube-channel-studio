@@ -34,7 +34,7 @@ before generating anything.
 
 Ask:
 
-> Which channel is this for? (Paste the handle, e.g. `@ConcreetoClay`)
+> Which channel is this for? (Paste the handle, e.g. `@SilverForgeStudio`)
 
 Derive the slug the same way yt-channel-init does: strip `@`, lowercase,
 hyphens for spaces.

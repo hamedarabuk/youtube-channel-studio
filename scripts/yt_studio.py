@@ -25,7 +25,7 @@ def slugify(text: str) -> str:
     Convert arbitrary text to a kebab-case slug.
 
     Rules:
-    - Strip leading '@' (handles YouTube handles like @ConcreetoClay).
+    - Strip leading '@' (handles YouTube handles like @SilverForgeStudio).
     - Lowercase.
     - Replace any non-alphanumeric character with a hyphen.
     - Collapse consecutive hyphens to one.
@@ -33,7 +33,7 @@ def slugify(text: str) -> str:
     - Truncate to 60 characters (truncation at a hyphen boundary where possible).
 
     Examples:
-        slugify('@ConcreetoClay')  -> 'concreettoclay'
+        slugify('@SilverForgeStudio')  -> 'silverforgestudio'
         slugify('How I Made a Gold Ring') -> 'how-i-made-a-gold-ring'
     """
     text = text.lstrip("@").lower()
@@ -57,7 +57,7 @@ def today_iso() -> str:
 
 def ensure_channel_dir(repo_root: Path, handle: str) -> Path:
     """
-    Given a channel handle (e.g. '@ConcreetoClay' or 'concreettoclay'),
+    Given a channel handle (e.g. '@SilverForgeStudio' or 'silverforgestudio'),
     compute the slug and create the channel directory structure:
 
         channels/<slug>/

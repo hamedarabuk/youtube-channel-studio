@@ -42,11 +42,11 @@ Say the following (adapt naturally, keep the substance):
 
 Then ask:
 
-> What is your channel handle? (e.g. `@ConcreetoClay`)
+> What is your channel handle? (e.g. `@SilverForgeStudio`)
 
 Derive the slug: strip the `@`, lowercase everything, replace spaces and
-special characters with hyphens. Example: `@ConcreetoClay` becomes
-`concreettoclay`. Store this as `<slug>`.
+special characters with hyphens. Example: `@SilverForgeStudio` becomes
+`silverforgestudio`. Store this as `<slug>`.
 
 Check whether `channels/<slug>/foundation.md` already exists using the Read
 tool. If it does, say:
@@ -66,7 +66,7 @@ Ask these questions together (they are a single coherent block):
 > Let's start with the basics.
 >
 > 1. What is the full channel name as it appears on YouTube?
-> 2. What is the channel URL? (e.g. youtube.com/@ConcreetoClay)
+> 2. What is the channel URL? (e.g. youtube.com/@SilverForgeStudio)
 > 3. What is the channel's current public description (the About section on
 >    the channel page)? Paste it if you have it, or say "none yet".
 > 4. What year did you start the channel, or plan to launch it?
