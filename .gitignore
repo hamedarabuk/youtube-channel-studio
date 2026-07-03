@@ -23,6 +23,9 @@ __pycache__/
 venv/
 *.egg-info/
 
+# Claude Code local settings (may contain machine-specific paths and command history)
+.claude/settings.local.json
+
 # IDE
 .vscode/
 .idea/

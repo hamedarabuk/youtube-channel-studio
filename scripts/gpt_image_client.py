@@ -1,5 +1,5 @@
 """
-scripts/gpt_image_client.py — OpenAI gpt-image-2 image generation client.
+scripts/gpt_image_client.py: OpenAI gpt-image-2 image generation client.
 
 Dependencies:
     pip install openai
@@ -132,7 +132,7 @@ def _write_output(b64_data: str, output_path: Path) -> None:
         from lib.image_io import strip_metadata
         strip_metadata(output_path)
     except Exception as e:
-        print(f"gpt_image: warning — metadata strip failed: {e}", file=sys.stderr)
+        print(f"gpt_image: warning, metadata strip failed: {e}", file=sys.stderr)
 
     size_kb = output_path.stat().st_size // 1024
     print(f"gpt_image: saved {size_kb} KB -> {output_path}", file=sys.stderr)

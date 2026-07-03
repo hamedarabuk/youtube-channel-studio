@@ -1,5 +1,5 @@
 """
-scripts/yt_studio.py — shared helpers for the youtube-channel-studio toolkit.
+scripts/yt_studio.py: shared helpers for the youtube-channel-studio toolkit.
 
 Functions:
   slugify(text)              -- kebab-case slug, max 60 chars.

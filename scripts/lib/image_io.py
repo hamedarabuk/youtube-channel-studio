@@ -1,5 +1,5 @@
 """
-scripts/lib/image_io.py — image metadata sanitiser for AI-generated images.
+scripts/lib/image_io.py: image metadata sanitiser for AI-generated images.
 
 Why this exists: AI image generators (OpenAI gpt-image-2, Google Gemini, etc.)
 embed C2PA / Content Authenticity Initiative metadata as PNG iTXt chunks

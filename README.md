@@ -5,14 +5,14 @@ A Claude Code skill toolkit that helps YouTube creators optimise video metadata 
 ## Requirements
 
 - [Claude Code](https://www.anthropic.com/claude-code) installed and signed in to your subscription
-- OpenAI API key for thumbnail generation: get one at https://platform.openai.com/api-keys
 - Python 3.11 or newer
+- OpenAI API key, required only for the thumbnail-image step: get one at https://platform.openai.com/api-keys. Everything else (the interview, the title, description, and copy outputs) runs on your Claude subscription at no extra cost. Without a key, the skill still writes a thumbnail brief you can hand to any image tool by hand.
 
 ## Install
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/youtube-channel-studio.git
+   git clone https://github.com/hamedarabuk/youtube-channel-studio.git
    cd youtube-channel-studio
    ```
 
@@ -74,6 +74,12 @@ A Claude Code skill toolkit that helps YouTube creators optimise video metadata 
 ## Multi-channel support
 
 Run `yt-channel-init` again for each new channel. Each gets its own subdirectory under `channels/`. The per-video skill always asks which channel before it loads the foundation.
+
+## Troubleshooting
+
+- **"OPENAI_API_KEY is not set"**: your `.env` file is missing or the key line is empty. Re-check step 3 of Install; the key must be pasted into `.env`, not `.env.example`.
+- **"openai is not installed"**: run `pip install -r requirements.txt` again inside your active virtual environment.
+- **Python version errors**: this toolkit needs Python 3.11 or newer. Run `python --version` to check.
 
 ## Sharing this repo
 
